@@ -21,7 +21,7 @@ div {
 }
 
 button {
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 10px;
     border: none;
     border-radius: 8px;
@@ -52,6 +52,8 @@ a {
     align-items: center;
     height: 50vh;
     margin-top: 10%;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
 .grid-container {
