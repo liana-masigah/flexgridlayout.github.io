@@ -1,0 +1,113 @@
+* {margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, button {
+    background-color: hsl(0, 0%, 95%);
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+div {
+    padding: 50px;
+}
+
+button {
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.body-style {
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+
+.flex-container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 10%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'a a a b b'
+    'a a a b b'
+    'c c d d d'
+    'c c e e e';
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.grid-container div {
+    border-radius: 2px;
+    grid-template-rows: 200px 200px;
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    height: 100%;
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+    height: 100%;
+}
+
+#lux {
+    background-color: hsl(179, 100%, 13%);
+    height: 100%;
+}
+
+.orange-grid {
+    background-color: orangered;
+    grid-area: a;
+}
+
+.yellow-grid {
+    background-color: rgb(233, 233, 13);
+    grid-area: b;
+}
+
+.green-grid {
+    background-color: green;
+    grid-area: c;
+}
+
+.blue-grid {
+    background-color: rgb(13, 197, 197);
+    grid-area: d;
+}
+
+.darkblue-grid {
+    background-color: rgb(13, 197, 197);
+    grid-area: e;
+}
